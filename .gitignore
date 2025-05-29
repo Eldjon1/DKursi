@@ -1,0 +1,45 @@
+# Visual Studio specific folders
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build output
+bin/
+obj/
+[Bb]uild/
+[Bb]uilds/
+
+# NuGet packages
+*.nupkg
+packages/
+*.snupkg
+
+# Rider IDE
+.idea/
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# DotCover
+*.dotCover
+
+# Backup and temporary files
+*.bak
+*.tmp
+*.log
+
+# File system
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# OS generated files
+.DS_Store
+*.swp
+
+# Others
+*.vsidx
