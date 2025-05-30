@@ -31,5 +31,10 @@ namespace DKursi
         {
 
         }
+
+        private void txtPerdoruesi_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

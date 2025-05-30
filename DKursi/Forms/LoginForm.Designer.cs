@@ -66,6 +66,7 @@
             txtPerdoruesi.Name = "txtPerdoruesi";
             txtPerdoruesi.Size = new Size(364, 31);
             txtPerdoruesi.TabIndex = 0;
+            txtPerdoruesi.TextChanged += txtPerdoruesi_TextChanged;
             // 
             // txtFjalekalimi
             // 
@@ -111,7 +112,7 @@
             Controls.Add(txtPerdoruesi);
             Controls.Add(lblPerdoruesi);
             Controls.Add(panel1);
-            FormBorderStyle = FormBorderStyle.FixedSingle;
+            FormBorderStyle = FormBorderStyle.None;
             Name = "LoginForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Login";
