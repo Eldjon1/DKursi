@@ -18,6 +18,10 @@ namespace DKursi.Data
             optionsBuilder.UseSqlServer("Data Source=LAPTOP-VMJQGC3C\\SQLEXPRESS;Initial Catalog=DetyreKursi;Integrated Security=True;TrustServerCertificate=True");
         }
 
+
+
+
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             Data.Entities.User.ConfigureForDb(modelBuilder.Entity<Data.Entities.User>());

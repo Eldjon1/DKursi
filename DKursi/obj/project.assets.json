@@ -4728,11 +4728,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ergib\\source\\repos\\DKursi\\DKursi\\DKursi.csproj",
+      "projectUniqueName": "C:\\Users\\ergib\\OneDrive\\Documents\\GitHub\\DKursi\\DKursi\\DKursi.csproj",
       "projectName": "DKursi",
-      "projectPath": "C:\\Users\\ergib\\source\\repos\\DKursi\\DKursi\\DKursi.csproj",
+      "projectPath": "C:\\Users\\ergib\\OneDrive\\Documents\\GitHub\\DKursi\\DKursi\\DKursi.csproj",
       "packagesPath": "C:\\Users\\ergib\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ergib\\source\\repos\\DKursi\\DKursi\\obj\\",
+      "outputPath": "C:\\Users\\ergib\\OneDrive\\Documents\\GitHub\\DKursi\\DKursi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
