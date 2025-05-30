@@ -1,3 +1,4 @@
+
 namespace DKursi
 {
     internal static class Program

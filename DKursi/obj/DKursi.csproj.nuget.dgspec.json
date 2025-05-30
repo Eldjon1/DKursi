@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\source\\repos\\DKursi\\DKursi\\DKursi.csproj": {}
+    "C:\\Users\\ergib\\source\\repos\\DKursi\\DKursi\\DKursi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\source\\repos\\DKursi\\DKursi\\DKursi.csproj": {
+    "C:\\Users\\ergib\\source\\repos\\DKursi\\DKursi\\DKursi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\source\\repos\\DKursi\\DKursi\\DKursi.csproj",
+        "projectUniqueName": "C:\\Users\\ergib\\source\\repos\\DKursi\\DKursi\\DKursi.csproj",
         "projectName": "DKursi",
-        "projectPath": "C:\\Users\\user\\source\\repos\\DKursi\\DKursi\\DKursi.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\source\\repos\\DKursi\\DKursi\\obj\\",
+        "projectPath": "C:\\Users\\ergib\\source\\repos\\DKursi\\DKursi\\DKursi.csproj",
+        "packagesPath": "C:\\Users\\ergib\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ergib\\source\\repos\\DKursi\\DKursi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ergib\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,11 +44,27 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -68,7 +84,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
