@@ -43,3 +43,4 @@ $RECYCLE.BIN/
 
 # Others
 *.vsidx
+/DKursi/obj/project.nuget.cache
