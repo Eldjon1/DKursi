@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DKursi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f4e913799d0fe1564de7a51e90e96bacb9a3701d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4a06fd1ce7c4217e826e98bbb16dc36772abc53c")]
 [assembly: System.Reflection.AssemblyProductAttribute("DKursi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DKursi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
