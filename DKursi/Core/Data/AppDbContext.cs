@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 
-namespace DKursi.Data
+namespace DKursi.Core.Data
 {
     internal class AppDbContext: DbContext
     {
@@ -15,7 +15,7 @@ namespace DKursi.Data
         {
             base.OnConfiguring(optionsBuilder);
             //string ergi
-            optionsBuilder.UseSqlServer("Data Source=LAPTOP-VMJQGC3C\\SQLEXPRESS;Initial Catalog=DetyreKursi;Integrated Security=True;TrustServerCertificate=True");
+            optionsBuilder.UseSqlServer("Data Source=DESKTOP-55AOBVQ\\SQLEXPRESS;Initial Catalog=DESKTOP-55AOBVQ\\SQLEXPRESS;Integrated Security=True;Encrypt=False;Trust Server Certificate=True");
         }
 
 
