@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace DKursi.Data.Entities
+namespace DKursi.Core.Data.Entities
 {
     public class User
     {
