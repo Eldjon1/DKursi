@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DKursi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< Updated upstream
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+396f7cda73c055d2aca18d30a7b9435f71eb8dd5")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+182f73c4592f6f008b77a4462047ff64e1f34b19")]
+>>>>>>> Stashed changes
 [assembly: System.Reflection.AssemblyProductAttribute("DKursi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DKursi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
