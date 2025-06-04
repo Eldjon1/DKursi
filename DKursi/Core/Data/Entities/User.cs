@@ -11,19 +11,19 @@ namespace DKursi.Core.Data.Entities
     public class User
     {
         public int Id { get; set; }
-        public string Name { get; set; }
-        public string Email { get; set; }
+        public string Username { get; set; }
+        public string Role { get; set; }
         public string Password { get; set; }
         public static void ConfigureForDb(EntityTypeBuilder<User> builder)
         {
             builder.ToTable("users");
             builder.HasKey(x => x.Id);
 
-            builder.Property(x => x.Name)
+            builder.Property(x => x.Username)
                 .IsRequired()
                 .HasMaxLength(100);
 
-            builder.Property(x => x.Email)
+            builder.Property(x => x.Role)
                 .IsRequired()
                 .HasMaxLength(100);
 

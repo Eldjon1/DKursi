@@ -34,6 +34,7 @@
 
   <ItemGroup>
     <Folder Include="Core\Logic\" />
+    <Folder Include="PL\User\Tavolin\" />
   </ItemGroup>
 
 </Project>
