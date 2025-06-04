@@ -14,8 +14,10 @@ namespace DKursi.Core.Data
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
-            //string ergi
-            optionsBuilder.UseSqlServer("Data Source=DESKTOP-55AOBVQ\\SQLEXPRESS;Initial Catalog=DESKTOP-55AOBVQ\\SQLEXPRESS;Integrated Security=True;Encrypt=False;Trust Server Certificate=True");
+            //string ergiLaptop
+            optionsBuilder.UseSqlServer("Data Source=LAPTOP-VMJQGC3C\\SQLEXPRESS;Initial Catalog=DetyreKursi;Integrated Security=True;TrustServerCertificate=True");
+            //string ergipc
+            //optionsBuilder.UseSqlServer("Data Source=DESKTOP-55AOBVQ\\SQLEXPRESS;Initial Catalog=DESKTOP-55AOBVQ\\SQLEXPRESS;Integrated Security=True;Encrypt=False;Trust Server Certificate=True");
         }
 
 

@@ -40,20 +40,33 @@ namespace DKursi
             using (var context = new AppDbContext())
             {
                 var user = context.Users
-                                  .FirstOrDefault(u => u.Name == username && u.Password == password);
+                    .FirstOrDefault(user => user.Username == username && user.Password == password);
 
                 if (user != null)
                 {
-                    MessageBox.Show("Hyrje e suksesshme!", "Sukses", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    this.Hide();
-
+                    if (user.Role == "menaxher")
+                    {
+                        this.Hide();
+                        var adminForm = new AdminForm();
+                        adminForm.Show();
+                    }
+                    else if (user.Role == "kamarier")
+                    {
+                        this.Hide();
+                        var waiterForm = new UserForm();
+                        waiterForm.Show();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Roli i përdoruesit nuk njihet.", "Gabim");
+                    }
                 }
                 else
                 {
-                    MessageBox.Show("Emri i përdoruesit ose fjalëkalimi është i pasaktë.", "Gabim", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Emri ose fjalëkalimi është i pasaktë!", "Gabim");
                 }
             }
-        }
+            }
 
 
 
@@ -69,7 +82,7 @@ namespace DKursi
                 var userList = context.Users.ToList();
 
                 comboBox1.DataSource = userList;
-                comboBox1.DisplayMember = "Name";
+                comboBox1.DisplayMember = "Username";
                 comboBox1.ValueMember = "Id";
             }
         }
