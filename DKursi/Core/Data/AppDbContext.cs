@@ -10,6 +10,8 @@ namespace DKursi.Core.Data
     internal class AppDbContext: DbContext
     {
         public DbSet<Data.Entities.User>Users {get; set;}
+        public DbSet<Data.Entities.Tavolina> Tavolinat { get; set; }
+
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -27,6 +29,7 @@ namespace DKursi.Core.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             Data.Entities.User.ConfigureForDb(modelBuilder.Entity<Data.Entities.User>());
+            Data.Entities.Tavolina.ConfigureForDb(modelBuilder.Entity<Data.Entities.Tavolina>());
         }
 
     }
