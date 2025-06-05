@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DKursi.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250604195143_full")]
-    partial class full
+    [Migration("20250605210955_fillimiri")]
+    partial class fillimiri
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
