@@ -24,11 +24,13 @@ namespace DKursi.Core.Data
             //string ergipc
             //optionsBuilder.UseSqlServer("Data Source=DESKTOP-55AOBVQ\\SQLEXPRESS;Initial Catalog=DESKTOP-55AOBVQ\\SQLEXPRESS;Integrated Security=True;Encrypt=False;Trust Server Certificate=True");
             //string mikaela
-            //optionsBuilder.UseSqlServer("Data Source=DESKTOP-55AOBVQ\\SQLEXPRESS;Initial Catalog=DESKTOP-55AOBVQ\\SQLEXPRESS;Integrated Security=True;Encrypt=False;Trust Server Certificate=True");
+
+
+            ///optionsBuilder.UseSqlServer("Data Source=DESKTOP-MGMFNOH\\SQLEXPRESS;Initial Catalog=DESKTOP-55AOBVQ\\SQLEXPRESS;Integrated Security=True;Encrypt=False;Trust Server Certificate=True");
             //string Eldjon
-            //optionsBuilder.UseSqlServer("Data Source=WIN-5FER8EQHEV2\\SQLEXPRESS;Initial Catalog=DetyreKursi;Integrated Security=True;TrustServerCertificate=True")
-            //string Klena
-            //optionsBuilder.UseSqlServer("Data Source=DESKTOP-55AOBVQ\\SQLEXPRESS;Initial Catalog=DESKTOP-55AOBVQ\\SQLEXPRESS;Integrated Security=True;Encrypt=False;Trust Server Certificate=True");
+            //optionsBuilder.UseSqlServer("Data Source=WIN-5FER8EQHEV2\\SQLEXPRESS;Initial Catalog=DetyreKursi;Integrated Security=True;TrustServerCertificate=True");
+            //string Kleana
+            //optionsBuilder.UseSqlServer("Data Source=KLEANA\\SQLEXPRESS;Initial Catalog=DESKTOP-55AOBVQ\\SQLEXPRESS;Integrated Security=True;Encrypt=False;Trust Server Certificate=True");
             //string Juana
             //optionsBuilder.UseSqlServer("Data Source=DESKTOP-PGJ98K8\\SQLEXPRESS;Initial Catalog=DetyreKursi;Integrated Security=True;TrustServerCertificate=True");
 
