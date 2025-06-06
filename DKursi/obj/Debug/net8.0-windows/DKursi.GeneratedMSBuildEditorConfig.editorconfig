@@ -22,7 +22,11 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DKursi
+<<<<<<< Updated upstream
 build_property.ProjectDir = C:\Users\ergib\OneDrive\Documents\GitHub\DKursi\DKursi\
+=======
+build_property.ProjectDir = C:\Users\user\source\repos\Restaurant\DKursi\DKursi\
+>>>>>>> Stashed changes
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.CsWinRTUseWindowsUIXamlProjections = false

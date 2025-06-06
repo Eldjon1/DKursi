@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+<<<<<<< Updated upstream
     <Compile Update="PL\User\Tavolin\FaturaForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -23,11 +24,30 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="PL\Admin\AdminForm.cs">
+=======
+    <Compile Update="PL\Admin\Furnitore\Furnitore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PL\Admin\Furnitore\ModifikoFurnitore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PL\Admin\Furnitore\ShtoFurnitore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PL\Admin\Magazina\Blerje e re.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PL\Admin\Magazina\Magazina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PL\Admin\mainAdmin.cs">
+>>>>>>> Stashed changes
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="PL\LoginForm\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
+<<<<<<< Updated upstream
     <Compile Update="PL\User\UserForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -38,6 +58,9 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="PL\Admin\Waiter\ShtoUserForm.cs">
+=======
+    <Compile Update="PL\User\mainPerdorues.cs">
+>>>>>>> Stashed changes
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
