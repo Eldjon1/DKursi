@@ -4,6 +4,9 @@
     <Compile Update="PL\User\Tavolin\FaturaForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="PL\User\Tavolin\FaturaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="PL\Admin\Artikuj\ModArtikujForm.cs">
       <SubType>Form</SubType>
     </Compile>
